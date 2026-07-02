@@ -1,5 +1,9 @@
 package arrays
 
 func Sum(nums []int) int {
-	return 15
+	var sum int = 0
+	for _, num := range nums {
+		sum += num 
+	}
+	return sum
 }
